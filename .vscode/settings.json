@@ -1,0 +1,8 @@
+{
+    "code-runner.executorMap": {
+        "cpp": "\"C:\\msys64\\usr\\bin\\bash.exe\" -lc \"export PATH=/ucrt64/bin:`$PATH; g++ '$fileName' -o '$fileNameWithoutExt.exe' && ./'$fileNameWithoutExt.exe'\""
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.fileDirectoryAsCwd": true,
+    "code-runner.ignoreSelection": true
+}
