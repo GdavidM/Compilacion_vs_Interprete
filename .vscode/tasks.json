@@ -1,16 +1,28 @@
 {
-    "configurations": [
+    "tasks": [
         {
-            "name": "Win32",
-            "includePath": [
-                "${workspaceFolder}/**",
-                "C:/msys64/mingw64/include/**"
+            "type": "cppbuild",
+            "label": "C/C++: mingw64.exe compilar archivo activo",
+            "command": "c:\\msys64\\mingw64.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
-            "compilerPath": "C:/msys64/mingw64/bin/g++.exe",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "windows-gcc-x64"
+            "options": {
+                "cwd": "c:\\msys64"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Tarea generada por el depurador."
         }
     ],
-    "version": 4
+    "version": "2.0.0"
 }
