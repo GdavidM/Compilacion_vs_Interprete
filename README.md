@@ -1,4 +1,15 @@
 # Notas de Clase 03/09/2026
+## Índice
+1. [Lenguajes de Programación](#lenguajes-de-programación)
+2. [Lenguajes Compilados](#lenguajes-compilados)
+3. [Lenguajes Interpretados](#lenguajes-interepretados)
+4. [Lenguajes de Zona Intermedia](#lenguajes-de-zona-intermedia-bytecode-y-compilación-jit)
+5. [Actividad en Clase](#actividade-en-clase)
+   - [Ejercicio 1 - Valores aleatorios: suma y promedio](#ejercicio-1)
+   - [Ejercicio 2 - Valores pares e impares](#ejercicio-2)
+   - [Ejercicio 3 - Sucursales y ventas](#ejercicio-3)
+
+# Lenguajes de Programación
 Los lenguajes de programación se dividen en dos grandes categorias compilados e interpretados
 
 La diferencia clave esta en el momento y la forma en que ese codigo se traduce a lenguaje de maquina el único lenguaje que el hardware puede ejecutar directamente.
