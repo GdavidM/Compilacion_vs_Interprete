@@ -33,6 +33,38 @@ Codigo fuente -> compilacion a byteccode -> maquina virtual+jit
 # Actividade en Clase
 Realizar una tabla comparativa que muestre en la practica, las diferencias entre un lenguaje Interpretado *(python)* y un lenguaje Compilado *(C++)*.
 
+```
+📁 clase 03-09/
+│
+├── 📁 src/                     # Código fuente
+│   ├── 📁 ejercicio1/
+│   │   ├── ejercicio1.cpp
+│   │   └── Ejercicio1.py
+│   ├── 📁 ejercicio2/
+│   │   ├── ejercicio2.cpp
+│   │   └── Ejercicio2.py
+│   └── 📁 ejercicio3/
+│       ├── ejercicio3.cpp
+│       └── Ejercicio3.py
+│    
+├── 📁 bin/                     # Ejecutables compilados
+│   ├── ejercicio1.exe
+│   ├── ejercicio2.exe
+│   ├── ejercicio3.exe
+│   └── main.exe
+│
+├── 📁 scripts/                 # Scripts de Ejemplo
+│   ├── compilacion-python.py
+|   ├── main.cpp
+|   └── main.exe
+│
+│
+├── 📁 capturas/                # Capturas de pantalla
+│   └── *.png  (13 archivos)
+│
+└── README.md
+``` 
+
 ## Ejercicio 1
 Generar 10 valores aleatorios. Presentar la suma y el promedio.
 
@@ -47,7 +79,7 @@ for i in range(10):
 print(valores)
 print(valores/10)
 ```
-![Grafico ejercicio1py](Captura-de-pantalla-2026-09-03-234346.png)
+![Grafico ejercicio1py](capturas/Captura-de-pantalla-2026-09-03-234346.png)
 ### C++
 ```c++
 // Ejercicio1.cpp
@@ -71,9 +103,9 @@ int main() {
     return 0;
 } 
 ```
-![Grafico ejercicio1com](Captura%20de%20pantalla%202026-09-03%20234246.png)
-![Grafico ejercicio1ej1](Captura%20de%20pantalla%202026-09-03%20234336.png)
-![Grafico ejercicio1ej2](Captura%20de%20pantalla%202026-09-03%20234408.png)
+![Grafico ejercicio1com](capturas/Captura%20de%20pantalla%202026-09-03%20234246.png)
+![Grafico ejercicio1ej1](capturas/Captura%20de%20pantalla%202026-09-03%20234336.png)
+![Grafico ejercicio1ej2](capturas/Captura%20de%20pantalla%202026-09-03%20234408.png)
 | Métrica | C++ | Python |
 |---|---|---|
 | **Compilación** | 4,698.69 ms | No aplica |
@@ -104,7 +136,7 @@ print(valoresPares)
 print("Valores Impares")
 print(valoresImpares)
 ```
-![Grafico ejercicio2py](Captura%20de%20pantalla%202026-09-03%20234509.png)
+![Grafico ejercicio2py](capturas/Captura%20de%20pantalla%202026-09-03%20234509.png)
 
 ### C++
 ```c++
@@ -150,9 +182,9 @@ int main() {
     return 0;
 } 
 ```
-![Grafico ejercicio2com](Captura%20de%20pantalla%202026-09-03%20234448.png)
-![Grafico ejercicio2ej1](Captura%20de%20pantalla%202026-09-03%20234500.png)
-![Grafico ejercicio2ej2](Captura%20de%20pantalla%202026-09-03%20234524.png)
+![Grafico ejercicio2com](capturas/Captura%20de%20pantalla%202026-09-03%20234448.png)
+![Grafico ejercicio2ej1](capturas/Captura%20de%20pantalla%202026-09-03%20234500.png)
+![Grafico ejercicio2ej2](capturas/Captura%20de%20pantalla%202026-09-03%20234524.png)
 | Métrica | C++ | Python |
 |---|---|---|
 | **Compilación** | 742.39 ms | No aplica |
@@ -177,7 +209,7 @@ for i in ventas:
     if i > ventasTotalesPromedio:
         print(i)
  ```
- ![Grafico ejercicio3py](Captura%20de%20pantalla%202026-09-03%20234603.png)
+ ![Grafico ejercicio3py](capturas/Captura%20de%20pantalla%202026-09-03%20234603.png)
 ### C++
 ```c++
 //ejercicio 3.cpp
@@ -238,6 +270,6 @@ int main() {
 
 
 
-![Grafico ejercicio3com](Captura%20de%20pantalla%202026-09-03%20234543.png)
-![Grafico ejercicio3ej1](Captura%20de%20pantalla%202026-09-03%20234555.png)
-![Grafico ejercicio3ej2](Captura%20de%20pantalla%202026-09-03%20234614.png)
+![Grafico ejercicio3com](capturas/Captura%20de%20pantalla%202026-09-03%20234543.png)
+![Grafico ejercicio3ej1](capturas/Captura%20de%20pantalla%202026-09-03%20234555.png)
+![Grafico ejercicio3ej2](capturas/Captura%20de%20pantalla%202026-09-03%20234614.png)
