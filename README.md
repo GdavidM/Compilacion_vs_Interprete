@@ -47,6 +47,7 @@ for i in range(10):
 print(valores)
 print(valores/10)
 ```
+![Grafico ejercicio1py](Captura-de-pantalla-2026-09-03-234346.png)
 ### C++
 ```c++
 // Ejercicio1.cpp
@@ -70,6 +71,14 @@ int main() {
     return 0;
 } 
 ```
+![Grafico ejercicio1com](Captura%20de%20pantalla%202026-09-03%20234246.png)
+![Grafico ejercicio1ej1](Captura%20de%20pantalla%202026-09-03%20234336.png)
+![Grafico ejercicio1ej2](Captura%20de%20pantalla%202026-09-03%20234408.png)
+| Métrica | C++ | Python |
+|---|---|---|
+| **Compilación** | 4,698.69 ms | No aplica |
+| **Ejecución 1 (sin caché)** | 395.56 ms | 79.45 ms |
+| **Ejecución 2 (con caché)** | 15.93 ms | ~79.45 ms* |
 
 ## Ejercicio 2
 Generar 500 valores aleatorios entre 50 y 100. Presentar cuántos son pares y cúantos impares
@@ -95,6 +104,8 @@ print(valoresPares)
 print("Valores Impares")
 print(valoresImpares)
 ```
+![Grafico ejercicio2py](Captura%20de%20pantalla%202026-09-03%20234509.png)
+
 ### C++
 ```c++
 // ejercicio2.cpp
@@ -139,6 +150,14 @@ int main() {
     return 0;
 } 
 ```
+![Grafico ejercicio2com](Captura%20de%20pantalla%202026-09-03%20234448.png)
+![Grafico ejercicio2ej1](Captura%20de%20pantalla%202026-09-03%20234500.png)
+![Grafico ejercicio2ej2](Captura%20de%20pantalla%202026-09-03%20234524.png)
+| Métrica | C++ | Python |
+|---|---|---|
+| **Compilación** | 742.39 ms | No aplica |
+| **Ejecución 1 (sin caché)** | 93.62 ms | 58.96 ms |
+| **Ejecución 2 (con caché)** | 13.75 ms | ~58.96 ms* |
 ## Ejercicio 3
 Generar 2 arreglos paralelos con las 25 sucursales de una empresa y sus ventas. Presentar el promedio de ventas y las suscursales por encima del promedio.
 ### Python
@@ -158,6 +177,7 @@ for i in ventas:
     if i > ventasTotalesPromedio:
         print(i)
  ```
+ ![Grafico ejercicio3py](Captura%20de%20pantalla%202026-09-03%20234603.png)
 ### C++
 ```c++
 //ejercicio 3.cpp
@@ -209,3 +229,15 @@ int main() {
     return 0;
 }
  ```
+| Métrica | C++ | Python |
+|---|---|---|
+| **Compilación** | 584.48 ms | No aplica |
+| **Ejecución 1 (sin caché)** | 93.39 ms | 72.30 ms |
+| **Ejecución 2 (con caché)** | 14.13 ms | ~72.30 ms* |
+
+
+
+
+![Grafico ejercicio3com](Captura%20de%20pantalla%202026-09-03%20234543.png)
+![Grafico ejercicio3ej1](Captura%20de%20pantalla%202026-09-03%20234555.png)
+![Grafico ejercicio3ej2](Captura%20de%20pantalla%202026-09-03%20234614.png)
